@@ -1,1 +1,2 @@
 # Lesson-31-inheritence
+In this code, the `Laptop` class has a method `parts()` that lists the parts of a laptop. The `my_laptop` object is created, and calling `my_laptop.parts()` prints the parts of a laptop. The `Desktop` class inherits from the `Laptop` class, gaining access to its methods. The `my_desktop` object is created from the `Desktop` class, and calling `my_desktop.parts()` invokes the inherited method from `Laptop`. Finally, calling `my_desktop.weight()` prints a message specific to desktops.
